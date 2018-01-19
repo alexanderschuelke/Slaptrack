@@ -17,13 +17,13 @@
                         <group width="1" alignment="left" id="PCN-FC-vzX">
                             <items>
                                 <label alignment="center" text="R E C O R D" textAlignment="right" id="wmk-1h-ZiN">
-                                    <color key="textColor" red="0.82745098039215681" green="0.38039215686274508" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
                                 </label>
                             </items>
-                            <edgeInsets key="margins" left="0.0" right="0.0" top="5" bottom="12"/>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="5" bottom="15"/>
                             <variation key="device=watch42mm">
-                                <edgeInsets key="margins" left="0.0" right="0.0" top="10" bottom="6"/>
+                                <edgeInsets key="margins" left="0.0" right="0.0" top="10" bottom="22"/>
                             </variation>
                         </group>
                         <group width="1" alignment="left" id="SW9-K0-RIC">
@@ -39,18 +39,9 @@
                                 <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="20"/>
                             </variation>
                         </group>
-                        <group width="1" alignment="left" radius="0.0" id="Zet-Mq-vzz">
-                            <items>
-                                <button width="115" height="29" alignment="center" title="B P M" backgroundImage="frame" id="sJz-4l-LBA">
-                                    <color key="titleColor" red="0.82745098039215681" green="0.38039215686274508" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
-                                </button>
-                            </items>
-                        </group>
                     </items>
                     <connections>
-                        <outlet property="bpmButton" destination="sJz-4l-LBA" id="ybI-w4-Vcr"/>
+                        <outlet property="recordLabel" destination="wmk-1h-ZiN" id="hBH-9v-qHJ"/>
                     </connections>
                 </controller>
             </objects>
